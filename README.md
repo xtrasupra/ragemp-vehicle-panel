@@ -4,6 +4,8 @@
 
 **Демо:** https://xtrasupra.github.io/ragemp-vehicle-panel/
 
+**Раннее опубликованный на форуме Rage MP:** https://ragemp.pro/resources/figma-react-css-mini-menju-transporta.589/
+
 ## Локальный запуск
 
 Требуется Node.js 24.
