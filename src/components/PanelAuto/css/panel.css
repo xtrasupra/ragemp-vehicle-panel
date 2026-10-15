@@ -1,0 +1,300 @@
+.background-tablet--1 {
+    position: absolute;
+    width: 527px;
+    height: 510px;
+    right: 2vw;
+    bottom: 2vh;
+    background: rgba(9, 9, 9, 0.95);
+    border-radius: 20px;
+}
+
+.case-tablet-car--2 {
+    position: absolute;
+    width: 487px;
+    height: 470px;
+    left: calc(50% - 487px/2);
+    top: calc(50% - 470px/2);
+    background: rgba(28, 28, 28, 0.6);
+    border-radius: 20px;
+}
+
+.weather-info--3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: grid;
+}
+
+.text-car-name--4 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+}
+
+.text-weather-info--5 {
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+}
+
+.weather-svg--6 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.case-general-button--7 {
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+
+.info-car-button--8 {
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
+    font-family: Gilroy-Light;
+}
+
+.button-grid--9 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(2, 80px);
+    gap: 10px;
+    top: 10px;
+}
+
+.button-grid--9 button {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    font-size: 13px;
+    border-radius: 10px;
+    background: rgba(31, 31, 31, 0.85);
+    color: #F5F5F5;
+    transition: background-color 0.3s ease;
+    font-family: Gilroy-Light;
+}
+
+.button-grid--9 img {
+    position: absolute;
+    pointer-events: none;
+    left: calc(50% - 44px/2 + 22px);
+    top: calc(50% - 44px/2 + 22px);
+}
+
+.button-grid--9 button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.case-info-speed-car--10 {
+    position: absolute;
+    width: 170px;
+    height: 169px;
+    left: 20px;
+    top: 281px;
+    background: rgba(31, 31, 31, 0.85);
+    border-radius: 10px;
+}
+
+.line-svg--11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-background--12 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 135px;
+    top: 10px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.icon-background--13 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 135px;
+    top: 95px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.speed-svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-speed-1--14 {
+    position: absolute;
+    left: 10px;
+    top: 14.5px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
+    font-family: Gilroy-Light;
+}
+
+.text-speed-2--16 {
+    position: absolute;
+    left: 10px;
+    top: 99.5px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
+    font-family: Gilroy-Light;
+}
+
+.text-speed--15 {
+    position: absolute;
+    left: 10px;
+    top: 45px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+}
+
+.text-mileage--17 {
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+}
+
+.car-panel-general--18 {
+    position: absolute;
+    width: 217px;
+    height: 439.31px;
+    left: 250px;
+    top: 10.69px;
+}
+
+.road-img--20 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.car-png--19 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 368px;
+    z-index: 1;
+}
+
+.button-grid-door--21 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: repeat(2, 30px);
+    column-gap: 127px;
+    row-gap: 40px;
+    z-index: 2;
+    top: 255px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-grid-door--21 button {
+    background: rgba(153, 153, 153, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.light-car--22 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease;
+    z-index: 3;
+}
+
+.trunk-hood-buuton--23 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 30px);
+    grid-template-rows: repeat(2, 30px);
+    top: 15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    row-gap: 348px;
+}
+
+.button-grid-door--21 img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.button-car-panel--24:hover {
+    background-color: rgba(153, 153, 153, 0.29);
+}
+
+.light-car--22:hover {
+    background-color: rgba(153, 153, 153, 0.29);
+}
+
+.light-active-svg--25 {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: activeLigth 0.3s forwards;
+}
+
+.light-active-2-svg--26 {
+    position: absolute;
+    top: -152px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: activeLigth 0.3s forwards;
+}
+
+.salon-active-svg--27 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: activeLigth 0.3s forwards;
+}
+  
+@keyframes activeLigth {
+    to {
+      opacity: 1;
+    }
+}
